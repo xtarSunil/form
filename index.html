@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Roboto Slab', serif; 
+            color: white;
+
+        } 
+
+        body{
+            background: lightgreen;
+        }
+
+        h2{
+            font-size: 25px;
+            font-weight: 500;
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        #Container{
+            background-color: #222831;
+            width: 450px;
+            margin: auto;
+            margin-top: 100px;
+            padding: 20px 25px 45px ;
+            border-radius: 5px;
+            
+            
+        } 
+
+        i{
+            border: 1px solid greenyellow;
+            width: 50px;
+            text-align: center;
+            height: 30px;
+            margin-bottom: 5px;
+            padding-top: 5px; 
+            color: white;
+            background: lightgreen;
+        }
+
+        input{
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+            border: 1px solid greenyellow;
+            margin-top: 10px ;
+        }
+
+        button{
+            width: 150px;
+            height: 30px;
+            margin-top: 10px;
+            background: lightgreen;
+            border: 1px  solid lightgreen;
+            color: white;
+            margin-bottom: 10px;
+            font-size: 15px;
+        }
+
+        #class{
+            background: red;
+            border: 1px solid red;
+
+        }
+
+        p{
+            color: white;
+            text-align: right;
+        }
+
+
+        
+        
+        
+        
+
+
+
+    </style>
+</head>
+<body>
+    
+    <div id="Container">
+        <h2>login here</h2>
+        <form>
+            <div>
+                <span>Username:</span> <br>
+                <i class="fa fa-user"></i>
+                <input type="text" placeholder="Enter Username">
+            </div>
+            <div>
+                <span>Password:</span> <br>
+                <i class="fa fa-lock"></i>
+                <input type="number" placeholder="Enter Password">
+            </div>
+
+            <div>
+                <button>Login </button>
+                <button id="class">Reset</button>
+            </div>
+            <p>Forgot Password ?</p>
+        </form>
+    </div>
+
+    
+</body>
+</html>
